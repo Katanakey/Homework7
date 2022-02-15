@@ -1,0 +1,128 @@
+:root{
+    --font-playflair:'Playfair Display', serif;
+}
+main{
+    width: 900px;
+    height: 700px;
+    background-color: rgba(109, 109, 228, 1);
+    padding: 1px;
+    margin: 0px 40px;
+    border-radius: 30px;
+}
+#form{
+    width: 500px;
+    height: 540px;
+    background-color: rgba(142, 235, 204, 1);
+    margin: 80px 0px 20px 191px;
+    border-radius: 20px;
+}
+#text{
+    font-family: 'Playfair Display', serif;
+    width: 80px;
+    height: 50px;
+    color: beige;
+    font-weight: bold;
+    font-size: 37px;
+    top: 70px;
+    left: 80px;
+    position: relative;
+}
+input[type="submit"]{
+    background: yellow;
+    border: none;
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    font-family: var(--font-playflair);
+    font-size: 20px;
+    font-weight: bold;
+    top: 453px;
+    left: 362px;
+    position: absolute;
+    transition: all .4s;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: yellow;
+    transform: scale(1.5);
+}
+p:first-of-type{
+top: 87px;
+left: 75px;
+position: relative;
+}
+p:nth-of-type(2){
+    top: 100px;
+    left: 75px;
+    position: relative;
+}
+p:nth-of-type(3){
+    top: 370px;
+    left: 309px;
+    position: absolute;
+}
+footer{
+    font-family: var(--font-playflair);
+    width: 30px;
+    height: 15px;
+    white-space: nowrap;
+    top: 303px;
+    left: 114px;
+    position: relative;
+    opacity: 0.7;
+}
+#registr{
+    font-family: var(--font-playflair);
+    width: 30px;
+    height: 15px;
+    white-space: nowrap;
+    top: 580px;
+    left: 526px;
+    position: absolute;
+    cursor: pointer;
+}
+#registr:hover{
+    transform: all .4s;
+    transition: all .7s;
+    font-size: larger;
+}
+input[type="text"] {
+    border-bottom: 5px solid #cccccc;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    border-radius: 3px;
+    background: rgba(142, 235, 204, 1);
+    outline: none; 
+    height: 38px; 
+    width: 172px;
+    color: black; 
+    font-size: 16px;
+    font-family: var(--font-playflair);
+    }
+    input[type="password"] {
+        border-bottom: 5px solid #cccccc; 
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 3px;
+        background: rgba(142, 235, 204, 1);
+        outline: none; 
+        height: 38px; 
+        width: 172px;
+        color: black; 
+        font-size: 16px;
+        font-family: var(--font-playflair);
+        }
+        input[type="checkbox"]{
+        border-bottom: 5px solid #cccccc; 
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 3px;
+        background: rgba(142, 235, 204, 1);
+        outline: none; 
+        font-size: 16px;
+        font-family: var(--font-playflair);
+        cursor: pointer;
+        }
